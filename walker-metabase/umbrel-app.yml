@@ -1,0 +1,25 @@
+manifestVersion: 1.1
+id: walker-metabase
+category: media
+name: Metabase
+version: "0.61.3.5"
+tagline: The Free BI Tool for Everyone
+description: >-
+  Metabase is an open-source business intelligence tool that makes it easy to visualize and analyze your data. With its intuitive interface and powerful features, Metabase allows you to create interactive dashboards, run queries, and share insights with your team.
+developer: Metabase
+website: https://www.metabase.com/
+dependencies: []
+repo: https://github.com/metabase/metabase
+support: https://github.com/metabase/metabase/issues
+port: 3000
+gallery:
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  TBD
+torOnly: false
+permissions:
+  - STORAGE_DOCUMENTS
+submitter: ndilina
+submission: https://github.com/WalkerSL/umbrel-app-store

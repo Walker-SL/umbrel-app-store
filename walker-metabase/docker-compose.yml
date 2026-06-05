@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: metabase_server_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: metabase/metabase:v0.61.3.5
+    restart: unless-stopped
+    hostname: "${DEVICE_HOSTNAME}"
+    environment:
+      - PMB_DB_TYPE: h2
+      - MB_DB_FILE: /documents/metabase.db
+    volumes:
+      - ${UMBREL_ROOT}/data/storage/documents/metabase:/documents
+    ports:
+      - 3000:3000
