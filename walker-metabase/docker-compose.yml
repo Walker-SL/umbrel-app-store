@@ -12,8 +12,8 @@ services:
     restart: unless-stopped
     hostname: "${DEVICE_HOSTNAME}"
     environment:
-      - PMB_DB_TYPE: h2
-      - MB_DB_FILE: /documents/metabase.db
+      MB_DB_TYPE: h2
+      MB_DB_FILE: /documents/metabase.db
     volumes:
       - ${UMBREL_ROOT}/data/storage/documents/metabase:/documents
     ports:
