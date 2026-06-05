@@ -16,7 +16,10 @@ dependencies: []
 repo: https://github.com/metabase/metabase
 support: https://github.com/metabase/metabase/issues
 port: 3000
-gallery: ""
+gallery: 
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
