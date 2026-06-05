@@ -2,7 +2,7 @@ manifestVersion: 1
 id: walker-metabase
 category: media
 name: Metabase
-version: "0.61.3.5"
+version: "0.61.3"
 tagline: The Free BI Tool for Everyone
 description: >-
   Metabase is an open-source business intelligence tool that makes 
