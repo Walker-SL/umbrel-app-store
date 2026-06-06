@@ -1,33 +1,30 @@
 manifestVersion: 1
 id: walker-metabase
-category: media
 name: Metabase
-version: "0.61.3"
-tagline: The Free BI Tool for Everyone
+tagline: Fast analytics and business intelligence dashboard
+category: finance
+version: "0.61"
+port: 3094
 description: >-
-  Metabase is an open-source business intelligence tool that makes 
-  it easy to visualize and analyze your data. 
-  With its intuitive interface and powerful features, 
-  Metabase allows you to create interactive dashboards, run queries, 
-  and share insights with your team.
+  Metabase is an open-source business intelligence tool that lets you ask questions about your data and displays answers in easy-to-understand formats like charts, tables, and dashboards.
+
+
+  With Metabase you can explore your data without writing SQL, create beautiful dashboards, set up alerts, and share insights with your team. It connects to a wide range of databases including PostgreSQL, MySQL, MongoDB, and many more.
+
+
+  Key features include an intuitive query builder, interactive dashboards, scheduled reports, data modeling, and a powerful SQL editor for advanced users. Metabase makes it easy for anyone in your organization to find answers in your data.
 developer: Metabase
 website: https://www.metabase.com/
-dependencies: []
+submitter: ""
+submission: ""
 repo: https://github.com/metabase/metabase
 support: https://github.com/metabase/metabase/issues
-port: 3000
-gallery: 
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+releaseNotes: ""
+dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: >-
-  TBD
-torOnly: false
-permissions:
-  - STORAGE_DOWNLOADS
-submitter: ndilina
-submission: https://github.com/WalkerSL/umbrel-app-store
-
