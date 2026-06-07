@@ -13,6 +13,7 @@ services:
     environment:
       MB_DB_TYPE: h2
       MB_DB_FILE: /metabase-data/metabase.db
+      MB_JETTY_PORT: 3094
     volumes:
       - ${APP_DATA_DIR}/data/metabase:/metabase-data
     #mem_limit: 2g
