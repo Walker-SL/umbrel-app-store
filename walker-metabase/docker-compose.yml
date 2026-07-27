@@ -1,15 +1,15 @@
 version: '3.7'
 
 services:
-  app_proxy:
-    environment:
-      APP_HOST: walker-metabase_server_1
-      APP_PORT: 3094
+  # app_proxy:
+  #   environment:
+  #     APP_HOST: walker-metabase_server_1
+  #     APP_PORT: 3094
 
   server:
     image: metabase/metabase:v0.61.x@sha256:2e46cf61a9accf79adb70d75d41664557dded3c390edb4ca71a6d70963f269f5
     restart: unless-stopped
-    #stop_grace_period: 1m
+    stop_grace_period: 1m
     environment:
       MB_DB_TYPE: h2
       MB_DB_FILE: /metabase-data/metabase.db
