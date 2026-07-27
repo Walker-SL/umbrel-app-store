@@ -4,7 +4,7 @@ name: Metabase
 tagline: Fast analytics and business intelligence dashboard
 icon: https://www.gravatar.com/avatar/c654c74c950a7555bab0f45cc785ef85?s=120&r=g&d=404
 category: finance
-version: "0.61.4"
+version: "0.61.5"
 port: 3094
 description: >-
   Metabase is an open-source business intelligence tool that lets you ask questions about your data and displays answers in easy-to-understand formats like charts, tables, and dashboards.
